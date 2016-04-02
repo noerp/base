@@ -1,0 +1,24 @@
+dependencies {
+	compile vendor('noerp:start:1.0.0')
+	
+	compile fileTree(dir:'lib', include:'*.jar')
+	compile fileTree(dir:'lib/ant', include:'*.jar')
+	compile fileTree(dir:'lib/commons', include:'*.jar')
+	compile fileTree(dir:'lib/jeespecs', include:'*.jar')
+	compile fileTree(dir:'lib/scripting', include:'*.jar')
+	
+	/*
+	compile 'avalon-framework:avalon-framework:4.2.0'
+	compile 'net.sf.barcode4j:barcode4j-fop-ext-complete:2.0'
+	compile 'commons-beanutils:commons-beanutils-core:1.8.3'
+	
+	compile 'net.sourceforge.cobertura:cobertura:1.9.4.1'
+	compile 'jdbm:jdbm:1.0'
+	compile 'com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.0'
+	compile 'com.ibm.icu:icu4j:52.1'
+	compile 'org.codehaus.groovy:groovy:2.2.1'
+	compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
+	compile 'javax.servlet:javax.servlet-api:3.0.1'
+	compile 'javax.el:el-api:2.2'
+	*/
+}
